@@ -43,21 +43,16 @@ jQuery(function ($) {
           }
         );
         //#endregion
-      } else if (command == "hatetuananh") {
-        term.echo('\n"Tôi sẽ ghét tuananh cho tới già, tôi ghét ông!!"\n');
+      // } else if (command == "#command") {
+      //   term.echo('#Work');
       } else {
         term.echo("Lệnh không rõ: " + command);
       }
     },
     {
       greetings:
-        "[[b;red;black]" +
-        "\nLưu ý: Việc có quảng cáo liên quan đến chính trị là do chúng tôi dùng máy chủ miễn phí, các việc liên quan đến chính trị không hề liên quan đến chúng tôi. \n]" +
         "[[b;white;black]" +
-        "\nChào mừng bạn đến với Hiệp hội Thù ghét tuananh!\n" +
-        "\nHiệp hội thù ghét tuananh được thành lập với mục đích lật đổ ][[b;crimson;black]tuananh the Whale]. \n" +
-        "[[b;white;black]Hiệp hội không hoạt động ngầm, không có ràng buộc, mọi con người đều có quyền tham gia vào hiệp hội và đều có quyền lật đổ tuananh bất cứ lúc nào. \n]" +
-        "\n[[b;gold;black]Vui lòng truy cập bằng máy tính.]\n" +
+        "\nChào mừng bạn đến với WIT - Witch International Technology!]\n" +
         "[[b;white;black]" +
         "\nNhập ']" +
         "[[ib;yellow;black]" +
