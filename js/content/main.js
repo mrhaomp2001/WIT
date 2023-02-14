@@ -23,8 +23,14 @@ jQuery(function ($) {
               term.echo("Lệnh test được dùng để thí nghiệm, vui lòng ra ngoài. \n" + "- exit: thoát ra. \n");
             } else if (command == "test") {
               term.echo("Completed!");
-            } else if (command == "print") {
+              else if (command == "print") {
               term.echo("Completed!" + item.key1.name);
+            } 
+            } else if (command == "ls") {
+              term.echo("xin chào \n");
+              term.echo("xin chào 2");
+              term.echo("xin chào 2\n aslkkdjkasdh");
+              
             } else if (command == "check") {
               if (item.key1 == 1) {
                 term.echo(item.key1.name);
